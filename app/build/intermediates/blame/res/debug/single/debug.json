@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_splashscreen_bg.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-xxxhdpi/splashscreen_bg.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-mdpi_splashscreen_bg.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-mdpi/splashscreen_bg.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_home.xml.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-anydpi/ic_home.xml"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_splashscreen.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-xhdpi/ic_splashscreen.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-hdpi_splashscreen_bg.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-hdpi/splashscreen_bg.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/layout_activity_search.xml.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/layout_activity_homepage.xml.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/layout/activity_homepage.xml"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable_splashscreen.xml.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable/splashscreen.xml"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_splashscreen.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-xxhdpi/ic_splashscreen.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_splashscreen.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-xxxhdpi/ic_splashscreen.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_splashscreen.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-mdpi/ic_splashscreen.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-xhdpi_splashscreen_bg.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-xhdpi/splashscreen_bg.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_search.xml.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-anydpi/ic_search.xml"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/layout_wiki_result.xml.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/layout/wiki_result.xml"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splashscreen_bg.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-xxhdpi/splashscreen_bg.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/menu_homepage.xml.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/menu/homepage.xml"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/menu_search.xml.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/menu/search.xml"
+    },
+    {
+        "merged": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_splashscreen.png.flat",
+        "source": "/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/res/drawable-hdpi/ic_splashscreen.png"
+    }
+]
