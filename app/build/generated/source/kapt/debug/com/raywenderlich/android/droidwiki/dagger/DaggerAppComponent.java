@@ -3,6 +3,9 @@ package com.raywenderlich.android.droidwiki.dagger;
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity;
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity_MembersInjector;
 import com.raywenderlich.android.droidwiki.ui.homepage.HomepagePresenter;
+import com.raywenderlich.android.droidwiki.ui.search.EntryPresenter;
+import com.raywenderlich.android.droidwiki.ui.search.SearchActivity;
+import com.raywenderlich.android.droidwiki.ui.search.SearchActivity_MembersInjector;
 import dagger.internal.DoubleCheck;
 import dagger.internal.Preconditions;
 import javax.annotation.Generated;
@@ -18,6 +21,8 @@ import javax.inject.Provider;
 })
 public final class DaggerAppComponent implements AppComponent {
   private Provider<HomepagePresenter> provideHomePagePresenterProvider;
+
+  private Provider<EntryPresenter> provideSearchPresenterProvider;
 
   private DaggerAppComponent(PresenterModule presenterModuleParam) {
 
@@ -35,14 +40,24 @@ public final class DaggerAppComponent implements AppComponent {
   @SuppressWarnings("unchecked")
   private void initialize(final PresenterModule presenterModuleParam) {
     this.provideHomePagePresenterProvider = DoubleCheck.provider(PresenterModule_ProvideHomePagePresenterFactory.create(presenterModuleParam));
+    this.provideSearchPresenterProvider = DoubleCheck.provider(PresenterModule_ProvideSearchPresenterFactory.create(presenterModuleParam));
   }
 
   @Override
   public void inject(HomepageActivity target) {
     injectHomepageActivity(target);}
 
+  @Override
+  public void inject(SearchActivity target) {
+    injectSearchActivity(target);}
+
   private HomepageActivity injectHomepageActivity(HomepageActivity instance) {
     HomepageActivity_MembersInjector.injectPresenter(instance, provideHomePagePresenterProvider.get());
+    return instance;
+  }
+
+  private SearchActivity injectSearchActivity(SearchActivity instance) {
+    SearchActivity_MembersInjector.injectPresenter(instance, provideSearchPresenterProvider.get());
     return instance;
   }
 
