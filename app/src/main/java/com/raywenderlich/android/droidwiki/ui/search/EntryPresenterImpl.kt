@@ -38,14 +38,17 @@ import okhttp3.Callback
 import okhttp3.OkHttpClient
 import okhttp3.Response
 import java.io.IOException
+import javax.inject.Inject
 
-class EntryPresenterImpl : EntryPresenter {
+class EntryPresenterImpl @Inject constructor(private val wiki: Wiki) : EntryPresenter {
 
   private lateinit var entryView: EntryView
 
-  private val client: OkHttpClient = OkHttpClient()
-  private val api: WikiApi = WikiApi(client)
-  private val wiki: Wiki = Wiki(api)
+//  private val client: OkHttpClient = OkHttpClient()
+//  private val api: WikiApi = WikiApi(client)
+//  private val wiki: Wiki = Wiki(api)
+  // we don't need all this manual injections now
+  // because Dagger will inject it, it's present in the graph
 
   override fun setView(entryView: EntryView) {
     this.entryView = entryView

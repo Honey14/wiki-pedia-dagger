@@ -30,16 +30,19 @@
 
 package com.raywenderlich.android.droidwiki.network
 
-import com.raywenderlich.android.droidwiki.utils.Const
 import okhttp3.Call
 import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
+import javax.inject.Inject
 
-class WikiApi(private val client: OkHttpClient) {
+class WikiApi @Inject constructor(
+    private val client: OkHttpClient,
+    private val requestBuilder: HttpUrl.Builder?
+) {
 
   fun search(query: String): Call {
-    val urlBuilder = HttpUrl.parse("${Const.PROTOCOL}://${Const.LANGUAGE}.${Const.BASE_URL}")?.newBuilder()
+    val urlBuilder = requestBuilder
         ?.addQueryParameter("action", "query")
         ?.addQueryParameter("list", "search")
         ?.addQueryParameter("format", "json")
@@ -55,7 +58,7 @@ class WikiApi(private val client: OkHttpClient) {
   }
 
   fun getHomepage(): Call {
-    val urlBuilder = HttpUrl.parse("${Const.PROTOCOL}://${Const.LANGUAGE}.${Const.BASE_URL}")?.newBuilder()
+    val urlBuilder = requestBuilder
         ?.addQueryParameter("action", "parse")
         ?.addQueryParameter("page", "Main Page")
         ?.addQueryParameter("format", "json")

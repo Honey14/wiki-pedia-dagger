@@ -1,5 +1,6 @@
 package com.raywenderlich.android.droidwiki.dagger
 
+import com.raywenderlich.android.droidwiki.network.WikiApi
 import com.raywenderlich.android.droidwiki.utils.Const
 import dagger.Module
 import dagger.Provides
@@ -28,7 +29,7 @@ class NetworkModule {
   fun provideRequestBuilder(@Named(BASE_URL) baseUrl: String) =
       HttpUrl.parse(baseUrl)?.newBuilder()
 
-  //  @Provides
-  //  @Singleton
-  //  fun provideWikiApi(okHttpClient: OkHttpClient, requestBuilder : HttpUrl.Builder) = WikiApi(okHttpClient,requestBuilder)
+    @Provides
+    @Singleton
+    fun provideWikiApi(okHttpClient: OkHttpClient, requestBuilder : HttpUrl.Builder?) = WikiApi(okHttpClient,requestBuilder)
 }
