@@ -81,6 +81,24 @@ public final class DaggerAppComponent implements AppComponent {
       return this;
     }
 
+    /**
+     * @deprecated This module is declared, but an instance is not used in the component. This method is a no-op. For more, see https://dagger.dev/unused-modules.
+     */
+    @Deprecated
+    public Builder networkModule(NetworkModule networkModule) {
+      Preconditions.checkNotNull(networkModule);
+      return this;
+    }
+
+    /**
+     * @deprecated This module is declared, but an instance is not used in the component. This method is a no-op. For more, see https://dagger.dev/unused-modules.
+     */
+    @Deprecated
+    public Builder wikiModule(WikiModule wikiModule) {
+      Preconditions.checkNotNull(wikiModule);
+      return this;
+    }
+
     public AppComponent build() {
       if (presenterModule == null) {
         this.presenterModule = new PresenterModule();
