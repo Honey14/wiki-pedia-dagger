@@ -29,44 +29,45 @@
 19-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
 20-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:13:9-35
-21        android:theme="@android:style/Theme.Material.Light.DarkActionBar" >
-21-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:14:9-74
-22        <activity
-22-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:15:9-22:20
-23            android:name="com.raywenderlich.android.droidwiki.ui.splashscreen.Splashscreen"
-23-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:15:19-98
-24            android:theme="@style/Splashscreen" >
-24-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:16:13-48
-25            <intent-filter>
-25-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:17:13-21:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:18:17-69
-26-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:18:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:20:17-77
-28-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:20:27-74
-29            </intent-filter>
-30        </activity>
-31        <activity android:name="com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity" />
-31-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:23:9-101
-31-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:23:19-98
-32        <activity android:name="com.raywenderlich.android.droidwiki.ui.search.SearchActivity" />
-32-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:24:9-97
-32-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:24:19-94
-33
-34        <meta-data
-34-->[com.android.support:recyclerview-v7:26.1.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/83755dc016583b212b4d787f283ad655/recyclerview-v7-26.1.0/AndroidManifest.xml:23:9-25:38
-35            android:name="android.support.VERSION"
-35-->[com.android.support:recyclerview-v7:26.1.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/83755dc016583b212b4d787f283ad655/recyclerview-v7-26.1.0/AndroidManifest.xml:24:13-51
-36            android:value="26.1.0" />
-36-->[com.android.support:recyclerview-v7:26.1.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/83755dc016583b212b4d787f283ad655/recyclerview-v7-26.1.0/AndroidManifest.xml:25:13-35
-37        <meta-data
-37-->[android.arch.lifecycle:runtime:1.0.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/4c193b05c495313a3d0bbc49c9f50b1b/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
-38            android:name="android.arch.lifecycle.VERSION"
-38-->[android.arch.lifecycle:runtime:1.0.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/4c193b05c495313a3d0bbc49c9f50b1b/runtime-1.0.0/AndroidManifest.xml:26:13-58
-39            android:value="27.0.0-SNAPSHOT" />
-39-->[android.arch.lifecycle:runtime:1.0.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/4c193b05c495313a3d0bbc49c9f50b1b/runtime-1.0.0/AndroidManifest.xml:27:13-44
-40    </application>
-41
-42</manifest>
+21        android:testOnly="true"
+22        android:theme="@android:style/Theme.Material.Light.DarkActionBar" >
+22-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:14:9-74
+23        <activity
+23-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:15:9-22:20
+24            android:name="com.raywenderlich.android.droidwiki.ui.splashscreen.Splashscreen"
+24-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:15:19-98
+25            android:theme="@style/Splashscreen" >
+25-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:16:13-48
+26            <intent-filter>
+26-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:18:17-69
+27-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:20:17-77
+29-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity" />
+32-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:23:9-101
+32-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:23:19-98
+33        <activity android:name="com.raywenderlich.android.droidwiki.ui.search.SearchActivity" />
+33-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:24:9-97
+33-->/Users/honeysonwani/AndroidStudioProjects/Git/wiki-pedia-dagger/app/src/main/AndroidManifest.xml:24:19-94
+34
+35        <meta-data
+35-->[com.android.support:recyclerview-v7:26.1.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/9a2c3f93a338024a6bcffb7fe07ac566/recyclerview-v7-26.1.0/AndroidManifest.xml:23:9-25:38
+36            android:name="android.support.VERSION"
+36-->[com.android.support:recyclerview-v7:26.1.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/9a2c3f93a338024a6bcffb7fe07ac566/recyclerview-v7-26.1.0/AndroidManifest.xml:24:13-51
+37            android:value="26.1.0" />
+37-->[com.android.support:recyclerview-v7:26.1.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/9a2c3f93a338024a6bcffb7fe07ac566/recyclerview-v7-26.1.0/AndroidManifest.xml:25:13-35
+38        <meta-data
+38-->[android.arch.lifecycle:runtime:1.0.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/fe49bc94968287413dd58d1e6da74081/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+39            android:name="android.arch.lifecycle.VERSION"
+39-->[android.arch.lifecycle:runtime:1.0.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/fe49bc94968287413dd58d1e6da74081/runtime-1.0.0/AndroidManifest.xml:26:13-58
+40            android:value="27.0.0-SNAPSHOT" />
+40-->[android.arch.lifecycle:runtime:1.0.0] /Users/honeysonwani/.gradle/caches/transforms-2/files-2.1/fe49bc94968287413dd58d1e6da74081/runtime-1.0.0/AndroidManifest.xml:27:13-44
+41    </application>
+42
+43</manifest>
